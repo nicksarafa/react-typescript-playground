@@ -1,7 +1,13 @@
 {
-  "name": "my-app",
+  "name": "react-typescript-playground",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
   "dependencies": {
     "@types/jest": "^20.0.8",
     "@types/node": "^8.0.26",
@@ -11,10 +17,11 @@
     "react-dom": "^15.6.1",
     "react-scripts-ts": "2.6.0"
   },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
-  }
+  "contributors": [
+    {
+      "name": "Nick Sarafa",
+      "email": "nicksarafa@gmail.com",
+      "url": "http://www.pauselabs.com"
+    }
+  ]
 }
